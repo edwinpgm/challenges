@@ -105,18 +105,17 @@ console.log(esPar(4)); // Debería imprimir: true
 console.log(esPar(7)); // Debería imprimir: false
 ```
 
-### 8. Contar vocales
-Crea una función que cuente el número de vocales en una cadena de texto.
+### 8. Comparar dos números
+Escribe una función que compare dos números y devuelva un mensaje indicando cuál es mayor o si son iguales.
 
 ```js
-function contarVocales(texto) {
+function compararNumeros(a, b) {
   // Tu código aquí
 }
 
-console.log(contarVocales("Hola Mundo")); // Debería imprimir: 4
-console.log(contarVocales("Ana")); // Debería imprimir: 2
-console.log(contarVocales("Salvador")); // Debería imprimir: 3
-console.log(contarVocales("Josh")); // Debería imprimir: 1
+console.log(compararNumeros(5, 3));  // Debería imprimir: "5 es mayor que 3"
+console.log(compararNumeros(2, 2));  // Debería imprimir: "Los números son iguales"
+console.log(compararNumeros(1, 10)); // Debería imprimir: "10 es mayor que 1"
 ```
 
 ### 9. Mayor de edad
@@ -178,4 +177,124 @@ function esContrasenaValida(contrasena) {
 console.log(esContrasenaValida("Abc12345")); // Debería imprimir: true
 console.log(esContrasenaValida("abcdefgh")); // Debería imprimir: false
 console.log(esContrasenaValida("Ab1")); // Debería imprimir: false
+```
+
+### 13. Determinar el estado del agua
+Implementa una función que determine el estado del agua (sólido, líquido o gaseoso) según su temperatura en grados Celsius.
+
+```js
+function estadoAgua(temperatura) {
+  // Tu código aquí
+}
+
+console.log(estadoAgua(0));    // Debería imprimir: "sólido"
+console.log(estadoAgua(25));   // Debería imprimir: "líquido"
+console.log(estadoAgua(100));  // Debería imprimir: "gaseoso"
+```
+
+### 14. ¿Puedo montar en la montaña rusa?
+Crea una función que determine si un niño puede montar en la montaña rusa basándose en su altura.
+
+```js
+function puedoMontarMontanaRusa(alturaCm) {
+  // Tu código aquí
+  // La altura mínima es 120 cm
+}
+
+console.log(puedoMontarMontanaRusa(130)); // Debería imprimir: "¡Sí, puedes montar!"
+console.log(puedoMontarMontanaRusa(110)); // Debería imprimir: "Lo siento, aún no puedes montar."
+```
+
+### 15. Elegir el sabor de helado
+Escribe una función que sugiera un sabor de helado según el color favorito.
+
+```js
+function saborHelado(colorFavorito) {
+  // Tu código aquí
+  // Opciones: rojo -> fresa, azul -> menta, amarillo -> limón, otro -> chocolate
+}
+
+console.log(saborHelado("rojo"));    // Debería imprimir: "Te recomiendo un helado de fresa"
+console.log(saborHelado("verde"));   // Debería imprimir: "Te recomiendo un helado de chocolate"
+```
+
+### 16. Juego de piedra, papel o tijera
+Escribe una función que determine el ganador en un juego de piedra, papel o tijera.
+
+```js
+function piedraPapelTijera(jugador1, jugador2) {
+  // Tu código aquí
+  // Recuerda: Piedra gana a Tijera, Tijera gana a Papel, Papel gana a Piedra
+}
+
+console.log(piedraPapelTijera("piedra", "tijera")); // Debería imprimir: "¡Gana Jugador 1!"
+console.log(piedraPapelTijera("papel", "papel"));   // Debería imprimir: "¡Empate!"
+```
+
+### 17. El Clasificador de Películas
+Vamos a crear un programa que clasifique películas según la edad recomendada.
+
+```js
+function clasificarPelicula(edad) {
+  // Instrucciones:
+  // 1. Si la edad es menor a 7, la película es "Apta para todos los públicos"
+  // 2. Si la edad está entre 7 y 12, la película es "Recomendada para mayores de 7 años"
+  // 3. Si la edad está entre 13 y 17, la película es "Recomendada para mayores de 13 años"
+  // 4. Si la edad es 18 o mayor, la película es "Solo para adultos"
+  // Usa 'if', 'else if' y 'else' para crear estas condiciones
+
+  // Tu código aquí
+}
+
+console.log(clasificarPelicula(6));  // Debería imprimir: "Apta para todos los públicos"
+console.log(clasificarPelicula(10)); // Debería imprimir: "Recomendada para mayores de 7 años"
+console.log(clasificarPelicula(15)); // Debería imprimir: "Recomendada para mayores de 13 años"
+console.log(clasificarPelicula(18)); // Debería imprimir: "Solo para adultos"
+```
+
+### 18. El Evaluador de Notas
+Hagamos un programa que nos dé un mensaje según la nota obtenida en un examen.
+
+```js
+function evaluarNota(nota) {
+  // Instrucciones:
+  // 1. Si la nota es 10, el mensaje es "¡Excelente!"
+  // 2. Si la nota está entre 8 y 9, el mensaje es "Muy bien"
+  // 3. Si la nota está entre 6 y 7, el mensaje es "Bien, pero puedes mejorar"
+  // 4. Si la nota está entre 5 y 6, el mensaje es "Aprobado por poco"
+  // 5. Si la nota es menor que 5, el mensaje es "Necesitas estudiar más"
+  // Usa 'if', 'else if' y 'else' para crear estas condiciones
+
+  // Tu código aquí
+}
+
+console.log(evaluarNota(10)); // Debería imprimir: "¡Excelente!"
+console.log(evaluarNota(8));  // Debería imprimir: "Muy bien"
+console.log(evaluarNota(6));  // Debería imprimir: "Bien, pero puedes mejorar"
+console.log(evaluarNota(5));  // Debería imprimir: "Aprobado por poco"
+console.log(evaluarNota(4));  // Debería imprimir: "Necesitas estudiar más"
+```
+
+### 19. ¿Es mayor de 10?
+Crea una función que determine si un número es mayor que 10.
+
+```js
+function esMayorDeDiez(numero) {
+  // Tu código aquí
+}
+
+console.log(esMayorDeDiez(15)); // Debería imprimir: "Es mayor que 10"
+console.log(esMayorDeDiez(8));  // Debería imprimir: "No es mayor que 10"
+```
+
+### 20. Clima frío o cálido
+Escribe una función que determine si la temperatura es fría (menos de 15 grados) o cálida (15 o más grados).
+
+```js
+function clima(temperatura) {
+  // Tu código aquí
+}
+
+console.log(clima(10)); // Debería imprimir: "Hace frío"
+console.log(clima(20)); // Debería imprimir: "Hace calor"
 ```
