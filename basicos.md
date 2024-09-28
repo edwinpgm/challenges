@@ -298,3 +298,257 @@ function clima(temperatura) {
 console.log(clima(10)); // Debería imprimir: "Hace frío"
 console.log(clima(20)); // Debería imprimir: "Hace calor"
 ```
+
+### 21. Contar hasta 10
+Escribe un bucle que cuente del 1 al 10 e imprima cada número.
+
+```js
+function contarHastaDiez() {
+  // Tu código aquí
+}
+```
+
+contarHastaDiez();
+// Debería imprimir:
+// 1
+// 2
+// 3
+// ...
+// 10
+
+### 22. Suma de números
+Crea una función que sume todos los números del 1 al 100 usando un bucle.
+
+```js
+function sumarHastaCien() {
+  // Tu código aquí
+}
+
+console.log(sumarHastaCien()); // Debería imprimir: 5050
+```
+
+### 23. Tabla de multiplicar
+Escribe una función que imprima la tabla de multiplicar del 5 (del 1 al 10).
+
+```js
+function tablaDelCinco() {
+  // Tu código aquí
+}
+
+tablaDelCinco();
+// Debería imprimir:
+// 5 x 1 = 5
+// 5 x 2 = 10
+// ...
+// 5 x 10 = 50
+```
+
+### 24. Contar pares
+Crea una función que cuente e imprima los números pares del 1 al 20.
+
+```js
+function contarPares() {
+  // Tu código aquí
+}
+
+contarPares();
+// Debería imprimir:
+// 2
+// 4
+// ...
+// 20
+```
+
+### 25. Factorial
+Implementa una función que calcule el factorial de un número usando un bucle.
+
+```js
+function calcularFactorial(numero) {
+  // Tu código aquí
+}
+
+console.log(calcularFactorial(5)); // Debería imprimir: 120
+```
+
+### 26. Revertir una cadena
+Escribe una función que invierta una cadena de texto usando un bucle.
+
+```js
+function revertirCadena(texto) {
+  // Tu código aquí
+}
+
+console.log(revertirCadena("Hola")); // Debería imprimir: "aloH"
+```
+
+### 27. Contar vocales
+Crea una función que cuente el número de vocales en una cadena de texto.
+
+```js
+function contarVocales(texto) {
+  // Tu código aquí
+}
+
+console.log(contarVocales("Hola Mundo")); // Debería imprimir: 4
+```
+
+### 28. Imprimir patrón de asteriscos
+Escribe una función que imprima un patrón de asteriscos en forma de triángulo.
+
+```js
+function imprimirTriangulo(altura) {
+  // Tu código aquí
+}
+
+imprimirTriangulo(5);
+// Debería imprimir:
+// *
+// **
+// ***
+// ****
+// *****
+```
+
+### 29. Fibonacci
+Implementa una función que genere los primeros n números de la secuencia de Fibonacci.
+
+```js
+function fibonacci(n) {
+  // Tu código aquí
+}
+
+console.log(fibonacci(8)); // Debería imprimir: [0, 1, 1, 2, 3, 5, 8, 13]
+```
+
+### 30. Encontrar el número mayor
+Escribe una función que encuentre el número más grande en un array usando un bucle.
+
+```js
+function encontrarMayor(numeros) {
+  // Tu código aquí
+}
+
+console.log(encontrarMayor([3, 7, 2, 9, 1])); // Debería imprimir: 9
+```
+
+### 31. Sumar elementos de un array
+Crea una función que sume todos los elementos de un array usando un bucle.
+
+```js
+function sumarArray(numeros) {
+  // Tu código aquí
+}
+
+console.log(sumarArray([1, 2, 3, 4, 5])); // Debería imprimir: 15
+```
+
+### 32. Contar ocurrencias
+Implementa una función que cuente cuántas veces aparece un elemento en un array.
+
+```js
+function contarOcurrencias(array, elemento) {
+  // Tu código aquí
+}
+
+console.log(contarOcurrencias([1, 2, 3, 2, 4, 2, 5], 2)); // Debería imprimir: 3
+```
+
+### 33. Eliminar duplicados
+Escribe una función que elimine los elementos duplicados de un array usando un bucle.
+
+```js
+function eliminarDuplicados(array) {
+  // Tu código aquí
+}
+
+console.log(eliminarDuplicados([1, 2, 2, 3, 4, 4, 5])); // Debería imprimir: [1, 2, 3, 4, 5]
+```
+
+### 34. Multiplicar matrices
+Crea una función que multiplique dos matrices usando bucles anidados.
+
+```js
+function multiplicarMatrices(matriz1, matriz2) {
+  // Tu código aquí
+}
+
+const m1 = [[1, 2], [3, 4]];
+const m2 = [[5, 6], [7, 8]];
+console.log(multiplicarMatrices(m1, m2)); // Debería imprimir: [[19, 22], [43, 50]]
+```
+
+### 35. Validar palíndromo
+Implementa una función que verifique si una palabra es un palíndromo usando un bucle.
+
+```js
+function esPalindromo(palabra) {
+  // Tu código aquí
+}
+
+console.log(esPalindromo("radar")); // Debería imprimir: true
+console.log(esPalindromo("hola"));  // Debería imprimir: false
+```
+
+### 36. Generar números primos
+Escribe una función que genere los primeros n números primos usando bucles.
+
+```js
+function generarPrimos(n) {
+  // Tu código aquí
+}
+
+console.log(generarPrimos(5)); // Debería imprimir: [2, 3, 5, 7, 11]
+```
+
+### 37. Ordenar array (Bubble Sort)
+Implementa el algoritmo de ordenamiento de burbuja usando bucles.
+
+```js
+function bubbleSort(array) {
+  // Tu código aquí
+}
+
+console.log(bubbleSort([64, 34, 25, 12, 22, 11, 90])); // Debería imprimir: [11, 12, 22, 25, 34, 64, 90]
+```
+
+### 38. Rotar array
+Crea una función que rote los elementos de un array k posiciones a la derecha.
+
+```js
+function rotarArray(array, k) {
+  // Tu código aquí
+}
+
+console.log(rotarArray([1, 2, 3, 4, 5], 2)); // Debería imprimir: [4, 5, 1, 2, 3]
+```
+
+### 39. Espiral de números
+Implementa una función que genere una matriz en espiral de n x n.
+
+```js
+function generarEspiral(n) {
+  // Tu código aquí
+}
+
+console.log(generarEspiral(3));
+// Debería imprimir:
+// [
+//   [1, 2, 3],
+//   [8, 9, 4],
+//   [7, 6, 5]
+// ]
+```
+
+### 40. Juego del ahorcado
+Crea una versión simple del juego del ahorcado usando bucles.
+
+```js
+function jugarAhorcado(palabra) {
+  // Tu código aquí
+  // Usa bucles para implementar la lógica del juego
+  // Pide al usuario que adivine letras hasta que complete la palabra o se quede sin intentos
+}
+
+jugarAhorcado("javascript");
+// Este juego requerirá interacción con el usuario y múltiples bucles para manejar los intentos y actualizar el estado del juego
+```
